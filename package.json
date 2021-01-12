@@ -1,7 +1,7 @@
 {
-  "name": "tesseractocr",
-  "version": "2.0.0",
-  "description": "Node.js wrapper for Tesseract OCR CLI.",
+  "name": "tesseractocr-export-ok",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for Tesseract OCR CLI that fix export issue.",
   "main": "lib/recognize.js",
   "exports": {
     "require": "./lib/recognize.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schwarzkopfb/tesseract-ocr.git"
+    "url": "git+https://github.com/nattanai/tesseract-ocr.git"
   },
   "keywords": [
     "tesseract",
@@ -33,12 +33,12 @@
     "reading",
     "scanning"
   ],
-  "author": "Schwarzkopf Balazs <schwarzkopfb@icloud.com>",
+  "author": "Nattanai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/schwarzkopfb/tesseract-ocr/issues"
+    "url": "https://github.com/nattanai/tesseract-ocr/issues"
   },
-  "homepage": "https://github.com/schwarzkopfb/tesseract-ocr#readme",
+  "homepage": "https://github.com/nattanai/tesseract-ocr#readme",
   "dependencies": {
     "destroy": "^1.0.4",
     "once": "^1.4.0",
